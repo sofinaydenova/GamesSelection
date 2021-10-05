@@ -1,10 +1,33 @@
 body{
-	background-color: wheat;
+	
+	background-image: url("blank.gif") ;
+	background-repeat: repeat;
+	margin: 0;
+	text-align: center;
 }
-h3 {
+header {
+	text-align: center;
+	background-color: lightpink;
+	padding-top: 50px;
+}
+
+
+h1 {
 	color: salmon;
+	text-align: center;
+	font-size: 50px;
+	
 }
+
 h4 {
 	color: hotpink;
+	text-align: center;
+	font-size: 30px;
+}
+
+h1, h4 {
+	font-family: 'Playfair Display', serif;
+font-family: 'Roboto Mono', monospace;
+text-shadow:  1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
